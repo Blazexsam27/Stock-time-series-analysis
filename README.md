@@ -70,3 +70,19 @@ Language: Python
 Libraries: PyTorch, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 Environment: Google Colab / Jupyter Notebook
 Version Control: Git + GitHub
+
+### 🚀 How to Run
+``` bash
+# Clone repository
+git clone https://github.com/<your-username>/multi-stock-lstm.git
+cd multi-stock-lstm
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train model
+python train.py
+
+# Evaluate
+python evaluate.py
+```
